@@ -1,0 +1,50 @@
+#vBox > .button{
+    -fx-background-color: orange;
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-border-width: 0.3px;
+    -fx-border-style: solid;
+}
+.button{
+    -fx-background-color: lightgray;
+    -fx-font-size: 35px;
+    -fx-text-fill: black;
+    -fx-border-color: #000000;
+    -fx-border-width: 0.3px;
+    -fx-border-style: solid;
+}
+
+
+.text-input{
+    -fx-background-color: black;
+    -fx-font-size: 38px;
+    -fx-text-fill: white;
+}
+
+#masmen{
+    -fx-font-size: 28px;
+}
+
+#ac{
+    -fx-font-size: 28px;
+}
+
+#porcent{
+    -fx-font-size: 28px;    
+}
+
+.button:pressed{
+    -fx-padding: 9 28 5 28;    
+    -fx-background-insets: 4 4 4 4, 0, 1;
+}
+
+.button:hover{
+    -fx-background-color: grey;
+}
+
+#vBox > .button:hover{
+    -fx-background-color: #FF8000;
+}
+
+
+
